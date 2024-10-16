@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "sql-llm"
+version = "0.1.0"
+description = ""
+authors = ["Ismaeel Haider <ismaeelhaider92@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+langchain = "^0.3.3"
+psycopg2-binary = "^2.9.9"
+fastapi = "^0.115.2"
+python-dotenv = "^1.0.1"
+langchain-experimental = "^0.3.2"
+uvicorn = "^0.32.0"
+openai = "0.28"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
